@@ -1,0 +1,95 @@
+.conteiner h2{
+    font-size: 2em;
+    border: 0.4em solid white;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    color: white;
+    text-transform: uppercase;
+    width:  20.5rem;
+}
+
+.conteiner p{
+    font-size: 1.25em;
+    padding-bottom: 1.5em;
+    text-align: justify;
+}
+
+.intro-conteiner {
+    color:white;
+}
+
+.card{
+    width: 40em;
+    margin: 16% auto 0;
+    border: 1.5em solid white;
+    text-align: center;
+    padding:3.5em;
+}
+
+.name {
+    font-size: 4em;
+    font-weight: bold;
+    padding: 0.4em;
+    font-family: 'Megrim', cursive;
+    text-transform: uppercase;
+}
+.work-title {
+    font-size: 1.9em;
+    font-weight:300;
+    text-transform: uppercase;
+}
+
+.email{
+    padding: 1em;
+}
+
+.email a {
+    color: white;
+    font-size: 1.3em;
+    border-bottom: 0.2em solid white;
+}
+
+.email a:hover {
+    border-bottom: 0.2em solid white;
+    border-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    border-image-slice: 1;
+}
+
+.social-media {
+    margin: 0 auto;
+}
+
+.social-media a {
+    font-size: 1.5em;
+    color: white;
+}
+
+.github {
+    padding: 0.6em;
+}
+.github:hover {
+    color: black;
+}
+
+.linkedin{
+        padding: 0.6em;
+}
+
+.linkedin:hover {
+    color: #1a6bb7;
+}
+
+.instagram {
+    padding: 0;
+    margin: 0.6em;
+    border: 1px solid transparent;
+    border-radius: 11px 11px 9px 9px;
+    line-height: 0.85em;
+}
+.instagram:hover {
+    border: 1px solid transparent;
+    border-radius: 11px 13px 11px 9px;
+    line-height: 0.85em;
+    background-image: linear-gradient(220deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 60%, #f18271 73%, #f3a469 84%, #f7c978 100%);
+    background-repeat: no-repeat;
+}
