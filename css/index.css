@@ -16,11 +16,12 @@
 
 .intro-conteiner {
     color:white;
+    clear: both;
 }
 
 .card{
     width: 40em;
-    margin: 16% auto 0;
+    margin: 350px auto 320px;
     border: 1.5em solid white;
     text-align: center;
     padding:3.5em;
@@ -92,4 +93,145 @@
     line-height: 0.85em;
     background-image: linear-gradient(220deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 60%, #f18271 73%, #f3a469 84%, #f7c978 100%);
     background-repeat: no-repeat;
+}
+
+.fas {
+    background-image: -webkit-linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-right: .2em;
+}
+
+.dot {
+    font-size: .8em;
+}
+.about {
+    float: left;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-conteiner {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.padding-bottom {
+    padding-bottom: 2em;
+}
+.sobre-mim {
+    width: 45%;
+    float: left;
+}
+
+.educacao {
+    width: 45%;
+    float: right;
+}
+
+.habilidades-pessoais {
+    width: 45%;
+    float: right;
+}
+
+.experiencia {
+    width: 45%;
+    float: left;
+}
+
+.competencias {
+    width: 45%;
+    float: right;
+}
+
+.idiomas {
+    width: 45%;
+    float: left;
+}
+
+.section-conteiner h2 {
+    display: inline-block;
+    padding: 0.3em 0;
+    margin-bottom: .3em;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    /*border-left: solid white .3em;
+    border-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    border-image-slice: 1;*/
+}
+
+.section-conteiner h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: .3em;
+}
+
+.section-conteiner p {
+    font-size: 1.1em;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+.section-conteiner {
+    font-size: 1em;
+}
+.skill li {
+    width: 32ch;
+    display:inline-block;
+}
+
+.circle-1{
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color: #4ae8d5;
+    float: right;
+    margin: 10px 5px;
+}
+
+.circle-2{
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color: #64d4d9;
+    float: right;
+    margin: 10px 5px;
+}
+
+.circle-3{
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color: #81bdde;
+    float: right;
+    margin: 10px 5px;
+}
+
+.circle-4 {
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color: #8cb5df;
+    float: right;
+    margin: 10px 5px;
+}
+
+.circle-5 {
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color:#a39ee7;
+    float: right;
+    margin: 10px 5px;
+}
+.circle-gray{
+    border-radius:100%;
+    width:12px;
+    height:12px;
+    background-color:gray;
+    float: right;
+    margin: 10px 5px;
 }

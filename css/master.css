@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     background-repeat: no-repeat;
-    background-size: 1920px 1280px;
+    background-size: 1920px 1080px;
 }
 
 header {
@@ -13,7 +13,6 @@ header {
     position: fixed;
     top: 0;
 }
-
 .brand {
     float: left;
     padding: 20px;
@@ -36,15 +35,19 @@ header {
 .menu-superior {
     float: right;
 }
-.menu-superior li{
+.menu-superior li {
     display: inline-block;
-    color: black;
-    font-size: 1.8em;
     line-height: 60px;
     padding: 20px;
 }
 
-.menu-superior li:hover {
+.menu-superior li a {
+    color: black;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.menu-superior li a:hover {
     background-image: -webkit-linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
     background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%));
     color:transparent;
@@ -54,4 +57,10 @@ header {
 
 main a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        background-size: 1366px 768px;
+    }
 }
