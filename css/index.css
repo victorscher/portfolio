@@ -109,7 +109,6 @@
 }
 .about {
     float: left;
-    display: inline-block;
     width: 100%;
 }
 
@@ -142,9 +141,18 @@
     float: left;
 }
 
+.experiencia a {
+  color: #000;
+  line-height: 1.50;
+}
+
 .competencias {
     width: 45%;
     float: right;
+}
+
+.competencias li {
+  line-height: 1.50;
 }
 
 .idiomas {
@@ -164,9 +172,9 @@
 }
 
 .section-conteiner h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
-    padding-bottom: .3em;
+    padding-bottom: 1em;
 }
 
 .section-conteiner p {
@@ -234,4 +242,15 @@
     background-color:gray;
     float: right;
     margin: 10px 5px;
+}
+
+@media screen and (max-width: 1366px) {
+  .card{
+      margin: 180px auto 320px;
+  }
+
+  .about {
+      float: none;
+      width: 100%;
+  }
 }

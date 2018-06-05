@@ -1,0 +1,27 @@
+body {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+.conteiner {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.conteiner h1 {
+  font-size: 3em;
+  margin-bottom: 2em;
+}
+
+.conteiner h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+img {
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1366px) {
+}
