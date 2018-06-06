@@ -1,256 +1,265 @@
-.conteiner h2{
-    font-size: 2em;
-    border: 0.4em solid white;
-    margin-bottom: 1.5em;
-    padding: 0.5em;
-    color: white;
-    text-transform: uppercase;
-    width:  20.5rem;
+.conteiner h2 {
+	font-size: 2em;
+	border: 0.4em solid white;
+	margin-bottom: 1.5em;
+	padding: 0.5em;
+	color: white;
+	text-transform: uppercase;
+	width: 20.5rem;
 }
 
-.conteiner p{
-    font-size: 1.25em;
-    padding-bottom: 1.5em;
-    text-align: justify;
+.conteiner p {
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+	text-align: justify;
 }
 
 .intro-conteiner {
-    color:white;
-    clear: both;
+	color: white;
+	clear: both;
 }
 
-.card{
-    width: 40em;
-    margin: 350px auto 320px;
-    border: 1.5em solid white;
-    text-align: center;
-    padding:3.5em;
+.card {
+	width: 40em;
+	margin: 350px auto 320px;
+	border: 1.5em solid white;
+	text-align: center;
+	padding: 3.5em;
 }
 
 .name {
-    font-size: 4em;
-    font-weight: bold;
-    padding: 0.4em;
-    font-family: 'Megrim', cursive;
-    text-transform: uppercase;
-}
-.work-title {
-    font-size: 1.9em;
-    font-weight:300;
-    text-transform: uppercase;
+	font-size: 4em;
+	font-weight: bold;
+	padding: 0.4em;
+	font-family: 'Megrim', cursive;
+	text-transform: uppercase;
 }
 
-.email{
-    padding: 1em;
+.work-title {
+	font-size: 1.9em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.email {
+	padding: 1em;
 }
 
 .email a {
-    color: white;
-    font-size: 1.3em;
-    border-bottom: 0.2em solid white;
+	color: white;
+	font-size: 1.3em;
+	border-bottom: 0.2em solid white;
 }
 
 .email a:hover {
-    border-bottom: 0.2em solid white;
-    border-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-    border-image-slice: 1;
+	border-bottom: 0.2em solid white;
+	border-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+	border-image-slice: 1;
 }
 
 .social-media {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .social-media a {
-    font-size: 1.5em;
-    color: white;
+	font-size: 1.5em;
+	color: white;
 }
 
 .github {
-    padding: 0.6em;
-}
-.github:hover {
-    color: black;
+	padding: 0.6em;
 }
 
-.linkedin{
-        padding: 0.6em;
+.github:hover {
+	color: black;
+}
+
+.linkedin {
+	padding: 0.6em;
 }
 
 .linkedin:hover {
-    color: #1a6bb7;
+	color: #1a6bb7;
 }
 
 .instagram {
-    padding: 0;
-    margin: 0.6em;
-    border: 1px solid transparent;
-    border-radius: 11px 11px 9px 9px;
-    line-height: 0.85em;
+	padding: 0;
+	margin: 0.6em;
+	border: 1px solid transparent;
+	border-radius: 11px 11px 9px 9px;
+	line-height: 0.85em;
 }
+
 .instagram:hover {
-    border: 1px solid transparent;
-    border-radius: 11px 13px 11px 9px;
-    line-height: 0.85em;
-    background-image: linear-gradient(220deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 60%, #f18271 73%, #f3a469 84%, #f7c978 100%);
-    background-repeat: no-repeat;
+	border: 1px solid transparent;
+	border-radius: 11px 13px 11px 9px;
+	line-height: 0.85em;
+	background-image: linear-gradient(220deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 60%, #f18271 73%, #f3a469 84%, #f7c978 100%);
+	background-repeat: no-repeat;
 }
 
 .fas {
-    background-image: -webkit-linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    padding-right: .2em;
+	background-image: -webkit-linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+	background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	padding-right: .2em;
 }
 
 .dot {
-    font-size: .8em;
+	font-size: .8em;
 }
+
 .about {
-    float: left;
-    width: 100%;
+	float: left;
+	width: 100%;
+	height: 860px;
 }
 
 .section-conteiner {
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 100px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 100px;
 }
 
 .padding-bottom {
-    padding-bottom: 2em;
+	padding-bottom: 2em;
 }
+
 .sobre-mim {
-    width: 45%;
-    float: left;
+	width: 45%;
+	float: left;
 }
 
 .educacao {
-    width: 45%;
-    float: right;
+	width: 45%;
+	float: right;
 }
 
 .habilidades-pessoais {
-    width: 45%;
-    float: right;
+	width: 45%;
+	float: right;
 }
 
 .experiencia {
-    width: 45%;
-    float: left;
+	width: 45%;
+	float: left;
 }
 
 .experiencia a {
-  color: #000;
-  line-height: 1.50;
+	color: #000;
+	line-height: 1.50;
 }
 
 .competencias {
-    width: 45%;
-    float: right;
+	width: 45%;
+	float: right;
 }
 
 .competencias li {
-  line-height: 1.50;
+	line-height: 1.50;
 }
 
 .idiomas {
-    width: 45%;
-    float: left;
+	width: 45%;
+	float: left;
 }
 
 .section-conteiner h2 {
-    display: inline-block;
-    padding: 0.3em 0;
-    margin-bottom: .3em;
-    text-transform: uppercase;
-    font-size: 1.8em;
-    /*border-left: solid white .3em;
+	display: inline-block;
+	padding: 0.3em 0;
+	margin-bottom: .3em;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	/*border-left: solid white .3em;
     border-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     border-image-slice: 1;*/
 }
 
 .section-conteiner h3 {
-    font-size: 1em;
-    font-weight: bold;
-    padding-bottom: 1em;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 1em;
 }
 
 .section-conteiner p {
-    font-size: 1.1em;
-    padding-bottom: 1em;
-    text-align: justify;
+	font-size: 1.1em;
+	padding-bottom: 1em;
+	text-align: justify;
 }
 
 .section-conteiner {
-    font-size: 1em;
+	font-size: 1em;
 }
+
 .skill li {
-    width: 32ch;
-    display:inline-block;
+	width: 32ch;
+	display: inline-block;
 }
 
-.circle-1{
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color: #4ae8d5;
-    float: right;
-    margin: 10px 5px;
+.circle-1 {
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: #4ae8d5;
+	float: right;
+	margin: 10px 5px;
 }
 
-.circle-2{
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color: #64d4d9;
-    float: right;
-    margin: 10px 5px;
+.circle-2 {
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: #64d4d9;
+	float: right;
+	margin: 10px 5px;
 }
 
-.circle-3{
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color: #81bdde;
-    float: right;
-    margin: 10px 5px;
+.circle-3 {
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: #81bdde;
+	float: right;
+	margin: 10px 5px;
 }
 
 .circle-4 {
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color: #8cb5df;
-    float: right;
-    margin: 10px 5px;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: #8cb5df;
+	float: right;
+	margin: 10px 5px;
 }
 
 .circle-5 {
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color:#a39ee7;
-    float: right;
-    margin: 10px 5px;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: #a39ee7;
+	float: right;
+	margin: 10px 5px;
 }
-.circle-gray{
-    border-radius:100%;
-    width:12px;
-    height:12px;
-    background-color:gray;
-    float: right;
-    margin: 10px 5px;
+
+.circle-gray {
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	background-color: gray;
+	float: right;
+	margin: 10px 5px;
 }
 
 @media screen and (max-width: 1366px) {
-  .card{
-      margin: 180px auto 320px;
-  }
-
-  .about {
-      float: none;
-      width: 100%;
-  }
+	.card {
+		margin: 180px auto 320px;
+	}
+	.about {
+		height: 500px;
+	}
+	.section-conteiner {
+		margin-top: 0px;
+	}
 }
